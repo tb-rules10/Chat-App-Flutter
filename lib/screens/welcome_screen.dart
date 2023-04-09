@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import '../components/login_buttons.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flash_chat/screens/login_screen.dart';
-import 'package:flash_chat/screens/register_screen.dart';
+import 'package:flash_chat/screens/authentication _screen.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
 
 class WelcomeScreen extends StatefulWidget {
@@ -73,16 +73,21 @@ class _WelcomeScreenState extends State<WelcomeScreen> with SingleTickerProvider
             SizedBox(
               height: 48.0,
             ),
+            // LoginButton(
+            //   buttonTitle: "Log In",
+            //   onPressed: (){
+            //     Navigator.pushNamed(context, LoginScreen.id);
+            //   },
+            // ),
             LoginButton(
-              buttonTitle: "Log In",
+              buttonTitle: "Get Started",
               onPressed: (){
-                Navigator.pushNamed(context, LoginScreen.id);
-              },
-            ),
-            LoginButton(
-              buttonTitle: "Register",
-              onPressed: (){
-                Navigator.pushNamed(context, RegisterScreen.id);
+                Navigator.pushNamed(context, AuthenticationScreen.id);
+                // ScaffoldMessenger.of(context).showSnackBar(
+                //     const SnackBar(
+                //       content: Text('Yay! A SnackBar!'),
+                //     ),
+                // );
               },
             ),
           ],

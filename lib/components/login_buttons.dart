@@ -1,21 +1,23 @@
 import 'package:flutter/material.dart';
 
 class LoginButton extends StatelessWidget {
-  const LoginButton({required this.onPressed, required this.buttonTitle});
+  const LoginButton({required this.onPressed, required this.buttonTitle, this.padding});
 
   final VoidCallback onPressed;
   final String buttonTitle;
+  final EdgeInsetsGeometry? padding;
 
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 16.0),
+      padding: padding ?? EdgeInsets.symmetric(vertical: 16.0),
       child: MaterialButton(
         color: Theme.of(context).colorScheme.primary,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(30.0),
         ),
         onPressed: onPressed,
+        minWidth: MediaQuery.of(context).size.width * .40,
         height: 50.0,
         child: Text(
           buttonTitle,
