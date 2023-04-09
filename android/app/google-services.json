@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "263106746392",
+    "project_id": "nocomms-85fe6",
+    "storage_bucket": "nocomms-85fe6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263106746392:android:3454feb4ae5c29b81a4b6d",
+        "android_client_info": {
+          "package_name": "com.ragnarok.no_comms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263106746392-ni8oc3hf5as53afklq3f3fk9qf80djii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-MISe_U54DuTt-oZ6i5J1sVNvGUA2zy8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263106746392-ni8oc3hf5as53afklq3f3fk9qf80djii.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
