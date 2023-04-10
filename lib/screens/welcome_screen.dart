@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import '../components/login_buttons.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:flash_chat/screens/login_screen.dart';
 import 'package:flash_chat/screens/authentication _screen.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
 
